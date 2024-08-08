@@ -1,10 +1,13 @@
  Hiring Task: Frontend Developer Challenge
 Objective: To evaluate the candidate's proficiency in Angular frontend development and their ability to implement a user interface based on Figma designs.
-Task Description:
-Step 1: Figma Designs
+
+## Task Description:
+
+## Step 1: Figma Designs
 ● Access the Figma design files for the Univacity Frontend Task. https://www.figma.com/design/aIupdnpDrUW99zLDNAvq0O/Univacity-Fronten- Task?node-id=0-1&t=uSwORmgUQ3f3fq56-1
 ● Choose one of the pages to work on: either the program search page or the program detail page.
-Step 2: Angular Development
+
+## Step 2: Angular Development
 Using Angular, create the chosen page based on the provided Figma design. Implement the following features:
 ● Responsive layout that adapts to different screen sizes (mobile, desktop).
 ● Use Angular components to structure the page.
@@ -13,7 +16,8 @@ Using Angular, create the chosen page based on the provided Figma design. Implem
 colors, and spacing.
 ● Implement routing if necessary to navigate between different views (e.g., search
 results to program details).
-Step 3: Light and Dark Theme (Optional)
+
+## Step 3: Light and Dark Theme (Optional)
 If time permits, create a dark theme version of the page. Allowing users with their
   
  device on dark them mode use the dark version.
