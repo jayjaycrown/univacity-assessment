@@ -45,7 +45,9 @@
           <div ngbAccordionCollapse>
             <div ngbAccordionBody>
               <ng-template>
-
+                <div class="custom-slider">
+                  <ngx-slider [(value)]="minValue" [(highValue)]="maxValue" [options]="options"></ngx-slider>
+                </div>
               </ng-template>
             </div>
           </div>

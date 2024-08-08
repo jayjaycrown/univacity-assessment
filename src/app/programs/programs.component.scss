@@ -93,3 +93,50 @@ h5.card-title {
 .card-title:hover {
   color: var(--bs-warning);
 }
+
+// .custom-slider {
+//   .ngx-slider {
+//     .ngx-slider-selection {
+//       background: rgb(55, 55, 15) !important;
+//     }
+//   }
+// }
+
+
+// .ngx-slider .ngx-slider-selection {
+//   z-index: 2;
+//   background: #f00d0d;
+//   -webkit-border-radius: 2px;
+//   -moz-border-radius: 2px;
+//   border-radius: 2px;
+// }
+
+// .ngx-slider {
+//   .ngx-slider-pointer {
+//     .ngx-slider-pointer-min {
+//       background-color: red !important;
+//       color: #0db9f0 !important;
+//     }
+//   }
+// }
+
+// .ngx-slider-pointer {
+//   cursor: not-allowed;
+//   background-color: rgb(240, 13, 13) !important;
+// }
+
+// .custom-slider .ngx-slider .ngx-slider-selection {
+//   background: rgb(240, 13, 13) !important;
+// }
+
+.ngx-slider .ngx-slider-pointer {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  top: -14px;
+  background-color: rgb(240, 13, 13) !important;
+  z-index: 3;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
