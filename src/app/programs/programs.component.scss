@@ -1,0 +1,95 @@
+.form-check {
+  margin-bottom: 10px;
+}
+
+.nav {
+  align-items: center;
+
+  .nav-link {
+    color: var(--text-color) !important;
+    font-size: 16px;
+  }
+
+  .nav-link.active {
+    color: var(--text-color-bold) !important;
+    font-size: 24px;
+  }
+
+  .nav-link:hover {
+    color: var(--text-color-bold) !important;
+  }
+}
+
+h6 {
+  font-weight: 300 !important;
+}
+
+.circle {
+  padding: 8px;
+  border-radius: 50%;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h5.card-title {
+  font-size: 18px;
+  transition: color .1s ease-in;
+}
+
+.card-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border-radius: 8px;
+  background: var(--background);
+  padding: 6px 12px;
+  width: auto;
+  max-width: 90%;
+}
+
+.card-click {
+  position: absolute;
+  top: 179px;
+  right: 10px;
+  background: var(--background);
+  padding: 0px 7.4px;
+  border-radius: 8px;
+
+  /* hides the checkbox */
+  input {
+    display: none;
+  }
+
+  /* changes the color when selected */
+  input:checked~label {
+    color: var(--bs-warning);
+  }
+
+  // input:not(:checked)~label {
+  //   background: transparent !important;
+  //   // border: 2px solid green;
+  //   color: var(--background);
+  // }
+
+  /* for styling purpose only */
+  label {
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+
+}
+
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  // width: 200px;
+  /* Adjust the width as needed */
+}
+
+.card-title:hover {
+  color: var(--bs-warning);
+}

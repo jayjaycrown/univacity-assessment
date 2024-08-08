@@ -1,0 +1,991 @@
+<div class="container-fluid my-5">
+  <div class="row g-5 ">
+    <div class="col-md-4 col-lg-3 col-xl-2">
+      <h3>Filter by</h3>
+      <div ngbAccordion>
+        <div ngbAccordionItem [collapsed]="false" class="border-top ">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Attendance</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    On Campus (50)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label ms-2" for="flexCheckDefault2">
+                    Hybrid (20)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                  <label class="form-check-label ms-2" for="flexCheckDefault3">
+                    E-Learning (120)
+                  </label>
+                </div>
+
+
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>
+              Tuition fee
+            </button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>
+              Country
+            </button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search countries">
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Angola (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Belgium (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Egypt (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Finland (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Mexico (50)
+                  </label>
+                </div>
+
+                <a href="" class="text-warning">See all countries <i
+                    class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Institute</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search institutes">
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Columbia university (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Brown university (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Europian institute of innov... (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Harvard university (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    New York university (50)
+                  </label>
+                </div>
+
+                <a href="" class="text-warning">See all institutes <i
+                    class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Languages</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-group mb-3">
+                  <input type="text" class="form-control" placeholder="Search languages">
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Arabic (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Chinese (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    English (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    German (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Spanish (50)
+                  </label>
+                </div>
+
+                <a href="" class="text-warning">See all languages <i
+                    class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top ">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Level</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Associate (50)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label ms-2" for="flexCheckDefault2">
+                    Undergraduate (20)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                  <label class="form-check-label ms-2" for="flexCheckDefault3">
+                    post Graduate (120)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Masters (50)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    PHD (50)
+                  </label>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top ">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Type</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    Full Time (50)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label ms-2" for="flexCheckDefault2">
+                    Part Time (20)
+                  </label>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+        <div ngbAccordionItem [collapsed]="false" class="border-top border-bottom">
+          <h2 ngbAccordionHeader>
+            <button ngbAccordionButton>Duration</button>
+          </h2>
+          <div ngbAccordionCollapse>
+            <div ngbAccordionBody>
+              <ng-template>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label ms-2" for="flexCheckDefault">
+                    6 - 12 Months (20)
+                  </label>
+                </div>
+
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label ms-2" for="flexCheckDefault2">
+                    1 - 3 Years (61)
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                  <label class="form-check-label ms-2" for="flexCheckDefault2">
+                    3 - 5 Years (182)
+                  </label>
+                </div>
+              </ng-template>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="col-md-8 col-lg-9 col-xl-10">
+      <div class="row align-items-center">
+        <div class="col-9">
+          <nav class="nav">
+            <a class="nav-link active" aria-current="page" href="#">Programs <span class=" ms-3 border-end"></span></a>
+            <a class="nav-link" href="#">Saved programs (89) <span class=" ms-3 border-end"></span></a>
+            <a class="nav-link" href="#">Applied (29)</a>
+          </nav>
+        </div>
+        <div class="col-3 text-end">
+          <div class="d-flex align-items-center  justify-content-end">
+            <p class="mb-0">View</p>
+            <button class="btn btn-clear"><i class="fa-solid fa-grid-2 text-primary fa-lg"></i></button>
+            <button class="btn btn-clear"><i class="fa-regular fa-list fa-lg text-white"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center mt-3">
+        <div class="col-md-7 col-lg-7">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search for programs">
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-3 offset-lg-2 mt-3 mt-md-0">
+          <div class="d-flex align-items-center justify-content-end">
+            <p class="me-3 mb-0">Sort by:</p>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Popularity</option>
+
+
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" style="cursor: pointer;" alt="..." (click)="navigate(1)">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart">
+              <label for="heart">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body" style="cursor: pointer;" (click)="navigate(1)">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" alt="..." style="cursor: pointer;" alt="..."
+              (click)="navigate(2)">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart2">
+              <label for="heart2">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body" style="cursor: pointer;" (click)="navigate(2)">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+                <p class="mx-2 mb-0"><i class="fa-solid fa-circle-small fa-2xs"></i></p>
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="..." style="cursor: pointer;" alt="..."
+              (click)="navigate(3)">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart3">
+              <label for="heart3">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body" style="cursor: pointer;" (click)="navigate(3)">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="..." style="cursor: pointer;" alt="..."
+              (click)="navigate(4)">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart4">
+              <label for="heart4">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body" style="cursor: pointer;" (click)="navigate(4)">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart12">
+              <label for="heart12">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart5">
+              <label for="heart5">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+                <p class="mx-2 mb-0"><i class="fa-solid fa-circle-small fa-2xs"></i></p>
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart6">
+              <label for="heart6">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart7">
+              <label for="heart7">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart13">
+              <label for="heart13">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img1.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">European Institute of Innovation</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart9">
+              <label for="heart9">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">SPAIN</h6>
+              </div>
+
+              <h5 class="card-title">Illustration Design</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-info"></span>
+                    <p class="mb-0 ms-2">E-Learning</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f3f4-e0067-e0062-e0065-e006e-e0067-e007f.png"
+                  width="12" height="12" alt="">
+                <p class="mb-0 ms-2">ENG</p>
+                <p class="mx-2 mb-0"><i class="fa-solid fa-circle-small fa-2xs"></i></p>
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3 ">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart10">
+              <label for="heart10">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6 mb-3">
+          <div class="card position-relative">
+            <img src="card_img2.jpg" class="card-img-top" alt="...">
+            <div class="card-tag">
+              <div class="d-flex align-items-center">
+                <img src="tag.png" alt="">
+                <p class="single-line mb-0 mx-2">University of Ibadan</p>
+                <span><i class="fa-solid fa-badge-check text-primary"></i></span>
+              </div>
+            </div>
+            <div class="card-click">
+              <input type="checkbox" id="heart11">
+              <label for="heart11">
+                &#9829;
+              </label>
+            </div>
+            <div class="card-body">
+              <div class="d-flex align-items-center mb-2">
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1f3-1f1ec.png" width="16"
+                  alt="">
+                <h6 class="mb-0 ms-2">NIGERIA</h6>
+              </div>
+
+              <h5 class="card-title">Designing for Accessibility</h5>
+              <div class="row">
+                <div class="col-6">
+                  <div class="d-flex align-items-center">
+                    <span class="circle bg-purple"></span>
+                    <p class="mb-0 ms-2">Hybrid</p>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="d-flex align-items-center justify-content-end">
+                    <span><i class="fa-solid fa-calendar-exclamation text-success"></i></span>
+                    <p class="mb-0 ms-2">18th June, 2023</p>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex mt-2 align-items-center">
+
+
+                <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1ea-1f1f8.png" width="12"
+                  alt="">
+                <p class="mb-0 ms-2">ESP</p>
+
+              </div>
+              <p>Full time · Undergraduate · 4 years</p>
+              <h5>$45,000/year</h5>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="d-flex justify-content-center mt-3">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination">
+            <li class="page-item disabled border rounded-start">
+              <a class="page-link" href="#" aria-label="Previous">
+                <i class="fa-regular fa-chevron-left"></i>
+              </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">4</a></li>
+            <li class="page-item"><a class="page-link" href="#">5</a></li>
+            <li class="page-item"><a class="page-link" href="#">6</a></li>
+            <li class="page-item"><a class="page-link" href="#">...</a></li>
+            <li class="page-item"><a class="page-link" href="#">25</a></li>
+
+            <li class="page-item border rounded-end">
+              <a class="page-link" href="#" aria-label="Next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

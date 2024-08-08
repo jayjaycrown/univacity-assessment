@@ -1,0 +1,142 @@
+.breadcrumb {
+  --bs-breadcrumb-padding-x: 0;
+  --bs-breadcrumb-padding-y: 0;
+  --bs-breadcrumb-margin-bottom: 1rem;
+  --bs-breadcrumb-bg: ;
+  --bs-breadcrumb-border-radius: ;
+  --bs-breadcrumb-divider-color: var(--text-color);
+  --bs-breadcrumb-item-padding-x: 0.5rem;
+  --bs-breadcrumb-item-active-color: var(--text-color);
+  display: flex;
+  flex-wrap: wrap;
+  padding: var(--bs-breadcrumb-padding-y) var(--bs-breadcrumb-padding-x);
+  margin-bottom: var(--bs-breadcrumb-margin-bottom);
+  font-size: var(--bs-breadcrumb-font-size);
+  list-style: none;
+  background-color: transparent;
+  border-radius: var(--bs-breadcrumb-border-radius);
+}
+
+li {
+  a {
+    color: var(--text-color);
+  }
+}
+
+.h3 {
+  font-size: 28px;
+}
+
+.btn-primary {
+  background: var(--bs-primary);
+}
+
+
+.btn-warning {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-warning);
+  --bs-btn-border-color: var(--bs-warning);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-warning);
+  --bs-btn-hover-border-color: var(--bs-warning);
+  --bs-btn-focus-shadow-rgb: 217, 164, 6;
+  --bs-btn-active-color: ar(--text-color);
+  --bs-btn-active-bg: var(--bs-warning);
+  --bs-btn-active-border-color: var(--bs-warning);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: ar(--text-color);
+  --bs-btn-disabled-bg: var(--bs-warning);
+  --bs-btn-disabled-border-color: var(--bs-warning);
+}
+
+
+.card-click {
+  margin-left: 14px;
+
+  /* hides the checkbox */
+  input {
+    display: none;
+  }
+
+  /* changes the color when selected */
+  input:checked~label {
+    color: var(--bs-warning);
+  }
+
+  // input:not(:checked)~label {
+  //   background: transparent !important;
+  //   // border: 2px solid green;
+  //   color: var(--background);
+  // }
+
+  /* for styling purpose only */
+  label {
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+
+}
+
+.btn-sm,
+.btn-group-sm>.btn {
+  --bs-btn-padding-y: 0.15rem;
+  --bs-btn-padding-x: 0.35rem;
+  --bs-btn-font-size: 0.75rem;
+  --bs-btn-border-radius: var(--bs-border-radius-sm);
+}
+
+.jumbocard {
+  background: var(--jumbobg);
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.circle {
+  padding: 8px;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .border-end {
+    border-right: none !important;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+}
+
+.bg-transparent {
+  background: transparent !important;
+}
+
+.nav-item {
+  margin-right: 16px;
+
+  .active {
+    color: var(--bs-primary);
+  }
+}
+
+.higi {
+  font-size: 16px;
+  font-weight: 600;
+
+}
+
+.customm {
+  background: #184EC9;
+  padding: 10px 16px;
+  color: #fff !important;
+}
+
+.other {
+  background: var(--navbar);
+}
+
+ul {
+  li {
+    line-height: 28px;
+    opacity: .8;
+  }
+}

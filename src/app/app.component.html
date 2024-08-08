@@ -1,0 +1,181 @@
+<nav class="navbar navbar-expand-lg navbar-light bbb">
+  <div class="container-fluid py-2">
+    <a class="navbar-brand" href="#">
+      @if (theme == 'light') {
+      <img src="logo.png" alt="" srcset="">
+      } @else {
+      <img src="logo_dark.png" alt="" srcset="">
+      }
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-5" id="navbarID">
+      <div class="navbar-nav navbar_bold me-auto">
+        <a class="nav-link" aria-current="page" href="#">Products <i
+            class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+        <a class="nav-link" aria-current="page" href="#">Solutions <i
+            class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+        <a class="nav-link" aria-current="page" href="#">Resources <i
+            class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+        <a class="nav-link" aria-current="page" href="#">Our Company <i
+            class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+
+      </div>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" aria-current="page">
+          <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        </a>
+        <a class="nav-link position-relative" aria-current="page" href="#">
+          <i class="fa-solid fa-message fa-lg"></i>
+          <span class="position-absolute start-100 translate-middle badge rounded-pill bg-danger spec">
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </a>
+        <a class="nav-link" aria-current="page" (click)="toggle()" style="cursor: pointer;">
+          @if (theme == 'light') {
+          <i class="fa-solid fa-moon fa-lg"></i>
+          } @else {
+          <i class="fa-solid fa-sun fa-lg"></i>
+          }
+        </a>
+        <a class="nav-link" aria-current="page">
+          <img src="pic.png" width="30" class="circle me-2 border-2" alt="">
+          <i class="fa-duotone fa-solid fa-chevron-down fa-xs"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-md navbar-light bbb">
+  <div class="container-fluid py-2">
+    <a class="navbar-brand" href="#">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID" aria-controls="navbarID"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ms-5" id="navbarID">
+      <div class="navbar-nav me-auto ms-auto">
+        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-objects-column"></i> Dashboard </a>
+        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-file-pen"></i> Applications </a>
+        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-book-bookmark"></i> Bookings </a>
+        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-credit-card"></i> Payments <i
+            class="fa-duotone fa-solid fa-chevron-down fa-xs"></i></a>
+        <a class="nav-link" aria-current="page" href="#"><i class="fa-solid fa-gear"></i> Settings </a>
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<!-- <hr class="mt-5"> -->
+
+<div class="footer ">
+  <hr>
+  <div class="container-fluid ">
+    <div class="row pt-4">
+      <div class="col-md-3">
+        <ul class="list-unstyled">
+          <li class="bold mb-2">Products</li>
+          <li>Univacity</li>
+          <li>Univac</li>
+          <li>Univaci</li>
+          <li>Unicity</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-unstyled">
+          <li class="bold mb-2">Resources</li>
+          <li>Blog</li>
+          <li>Help Center</li>
+          <li>Pricing</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-unstyled">
+          <li class="bold mb-2">Company</li>
+          <li>About</li>
+          <li>Subscribe</li>
+          <li>Contact Us</li>
+          <li>Careers</li>
+          <li>Media Kit</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul class="list-unstyled">
+          <li class="bold mb-2">Contact</li>
+          <li>+236 251 881 9917</li>
+          <li>
+            <a href="mailto:hello@univacity.com" class="text-warning">hello&#64;univacity.com</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container-fluid ">
+    <div class="row py-3 ">
+      <div class="col-md-4">
+        <div ngbDropdown class="d-inline-block">
+          <button type="button" class="btn btn-clear text-white" id="dropdownBasic1" ngbDropdownToggle>
+            <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/72x72/1f1fa-1f1f8.png"
+              class="rounded-circle" width="12" alt=""> United States
+          </button>
+          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+            <button ngbDropdownItem>Action - 1</button>
+            <button ngbDropdownItem>Another Action</button>
+            <button ngbDropdownItem>Something else is here</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Facebook</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Twitter</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-disabled="true">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; Univacity. All right reserved.</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link " href="#">Terms of Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cookie Policy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Privacy Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>

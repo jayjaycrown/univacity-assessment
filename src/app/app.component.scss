@@ -1,0 +1,45 @@
+.navbar_bold .nav-link {
+  color: var(--text-color-bold) !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  // Letter: 0.5px
+}
+
+.nav-link {
+  margin-left: 24px;
+  color: var(--text-color);
+}
+
+.spec {
+  border: 2px solid var(--colorless-border) !important
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.bold {
+  color: var(--text-color-bold);
+  font-weight: 600 !important;
+
+}
+
+.footer {
+  font-size: 16px !important;
+
+  ul li {
+    line-height: 1.5;
+    font-weight: 300;
+
+  }
+
+
+
+}
+
+
+// .card {
+//   cursor: pointer !important;
+// }
